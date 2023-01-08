@@ -7,7 +7,7 @@ This is a To-Do List Application With Local Storage
 2. save the page on your bookmark.
 3. start doing your list.
 ## Or Just Use This link
-- https://killingfiction.github.io/ToDo/
+- https://omarsaeed7.github.io/To-Do/
 ## Features
 - It is a local storage app
 The edit you commit will be saved in your browser and not be deleted after closing the browser.
