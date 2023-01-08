@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Noto Sans Arabic','Reem Kufi', sans-serif;
+}
+.container{
+    background: url("../imgs/boat.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 1em;
+}
+.main{
+    background-color: rgba(19, 19, 19, 0.329);
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    overflow: hidden;
+}
+.inputs{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    margin: 1em 1em 0 1em;
+    justify-content: center;
+    
+}
+input{
+    width:88%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    padding: 0.8em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.397);
+        color: white;
+}
+.btn{
+    width: 6%;
+    height: 75%;
+    margin-left: 1em;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;    
+
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.elements{
+    width: 100%;
+    
+    height: 100%;
+    border-radius: 2em;
+
+}
+ul{
+    list-style: none;
+    list-style-position: inside;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+li{
+    width: 100%;
+    padding: 1em 0 0 0;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.726);
+    
+}
+.Lists{
+    background-color:rgba(0, 128, 58, 0.664);
+}
+.icons{
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+#UserInput{
+    width: 60%;
+    word-wrap: break-word;
+}
+.list-btns{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: none;
+    margin:0 1em;
+}
+.list-btns:hover {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+/* .fa{
+    min-width: 1.2em;
+    border: none;
+    max-height: 1.2em;
+    border-radius:50%;
+    font-size: 0.6em;
+}
+
+.fa:hover{
+    background-color: black;
+    color: white;
+} */
+
+@media screen and (max-width:500px) and (max-width:375px) {
+    .container{
+        background-position: center;
+    }
+
+    .main{
+        background-color: rgba(0, 0, 0, 0.39);
+        width: 90%;
+    }
+
+    .elements{
+        width: 100%;
+    }
+
+    #UserInput {
+        width: 30%;
+        font-size: 0.8em;
+        word-wrap: break-word;
+    }
+    
+    .List{
+        background-color: rgba(14, 14, 14, 0.678);
+    }
+    
+    .list-btns {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        border: none;
+        margin: 0 0.5em;
+    }
+    
+    .btn {
+        width: 9.5%;
+        height: 50%;
+        margin: 0.2em;
+        margin-left: 1em;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 1em;
+    }
+    input {
+        width: 80%;
+        height: 60%;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        padding: 0.5em;
+        border-radius: 1em;
+        background-color:rgba(49, 49, 49, 0.425);
+        color: white;
+    }
+    .inputs {
+        margin-top: 1.5em;
+        height: 4em;
+    }
+        .Lists {
+            background-color: rgba(0, 128, 58, 0.664);
+        }
+}
